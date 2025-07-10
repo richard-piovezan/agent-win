@@ -22,6 +22,8 @@ As respostas são geradas por uma IA (Gemini 2.5 Flash), com foco no meta atual 
 3. Escreva sua pergunta (ex: Melhor build para Caitlyn contra Sivir) e clique em Perguntar.
 4. A resposta da IA aparecerá formatada logo abaixo do formulário.
 
+---
+
 ## Como obter uma API Key do Gemini
 
 1. Acesse: Google AI Studio – API Keys
@@ -31,6 +33,8 @@ As respostas são geradas por uma IA (Gemini 2.5 Flash), com foco no meta atual 
 
 ⚠️ Importante: Sua chave é pessoal. Mantenha-a segura.
 
+---
+
 ## ⚙️ Tecnologias usadas
 
 1. HTML5
@@ -38,6 +42,8 @@ As respostas são geradas por uma IA (Gemini 2.5 Flash), com foco no meta atual 
 3. JavaScript (Vanilla)
 4. Gemini 2.5 Flash API
 5. Showdown.js para conversão de Markdown para HTML
+
+---
 
 ## 📁 Estrutura do projeto
 
@@ -47,6 +53,8 @@ As respostas são geradas por uma IA (Gemini 2.5 Flash), com foco no meta atual 
 ├── script.js # Lógica de interação com a API
 ├── assets/
 │ └── agentwin.png # Logo do projeto
+
+---
 
 ## 🧠 Como a IA foi instruida?
 
@@ -59,20 +67,28 @@ O prompt enviado à IA contém:
 - Uso de Markdown para formatação
 - Exemplos de perguntas e respostas
 
+---
+
 ## ✅ Exemplos de perguntas
 
 - Melhor build para Zed?
 - Melhor runa de Zed contra Lissandra?
 - Qual o melhor campeão no mid contra Yone?
 
+---
+
 ## 📌 Contribuições
 
 Sinta-se à vontade para abrir issues, sugerir melhorias ou contribuir com o suporte a outros jogos!
+
+---
 
 ## 📖 Licença
 
 Este projeto é gratuito e não possui licença oficial.
 Você pode usá-lo, modificá-lo e compartilhar, mas sem garantias ou responsabilidades legais por parte do autor.
+
+---
 
 ## 👨‍💻 Autor
 
