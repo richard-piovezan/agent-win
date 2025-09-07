@@ -28,7 +28,7 @@ const askAI = async (question, game, apiKey) => {
     ## Regras
     - Se você não sabe a resposta, responda com "Não sei" e não tente inventar uma resposta.
     - Se você souber a resposta, responda com objetividade e clareza, sem desenvolver um bate-papo.
-    - Se a pergunta não está relacionada ao jogo, responda com "Esta pergunta não está relacionada ao jogo ${game}".
+    - Se a pergunta não está relacionada ao jogo, responda com "Esta pergunta não está relacionada ao jogo ${game === 'lol' ? 'League of Legends' : 'Dead by Daylight'}".
     - Considere a data atual ${new Date().toLocaleDateString()}.
     - Faça pesquisas atualizadas sobre o patch atual, baseado na data atual, para dar uma resposta coerente e acertiva.
     - Nunca responda itens que você não tenha certeza de que existe no patch atual.
@@ -39,13 +39,17 @@ const askAI = async (question, game, apiKey) => {
     - Responda em markdown
     - Não precisa fazer nenhuma saudação ou despedida, apenas responda o que o usuário está querendo.
 
-    ## Exemplo de resposta
+    ## Exemplo de resposta caso o jogo seja lol
     - Pergunta do usuário: Melhor build Zed mid?
     Resposta: A build mais atual com melhor winrate é: \n\n **Itens:**\n\n descreva os itens aqui em ordem cronologica que o usuário deve fazer ao longo do jogo.
     - Pergunta: Melhor runa de Zed contra Lissandra?
     Resposta: A melhor runa atual e com o melhor winrate é: \n\n**Runas:**\n\n (Dominação): \n- Eletrocutar \n- Gosto de Sangue \n- Lembrança Aterrorizante \n- Caça Suprema \n\n(Feitiçaria): \n- Transcedência \n- Chamuscar \n\n\n O winrate dessas runas contra lissandra é de 46.6%.
     - Pergunta: Qual o melhor campeão no mid contra zed?
     Resposta: - Fizz \n- Talon \n- Galio \n- Lissandra (Maior winrate)
+
+    ## Exemplo de resposta caso o jogo seja dbd
+    - Pergunta do usuário: Melhor pearks para o Bill?
+    Resposta: Tempo emprestado\nInquebrável\nDeixado para trás\nEsse meta é o mais famoso do Bill.
 
     ---
     Aqui está a pergunta do usuário: ${question}
