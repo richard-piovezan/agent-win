@@ -15,7 +15,7 @@ const askAI = async (question, game, apiKey) => {
   const model = "gemini-2.5-flash";
 
   const baseURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${
-    apiKey === "2003" ? "AIzaSyA0iWYfNG59DdZkYlVlyUsroNHTdTn9lEk" : apiKey
+    apiKey === "0000" ? "AIzaSyA0iWYfNG59DdZkYlVlyUsroNHTdTn9lEk" : apiKey
   }`;
   const currentQuestion = `
     ## Especialidade
